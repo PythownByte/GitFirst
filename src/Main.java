@@ -13,12 +13,12 @@ public class Main {
 
         var o = new Obj(10, true);
         o.showInfo();
-        
+
         o.setDigit(115).setSwitch(false).showInfo();
 
         var n = new Obj(33, false);
         n.showInfo();
 
-        n.setSwitch(true).showInfo();
+        n.setDigitAndSwitch(555, true).showInfo();
     }
 }

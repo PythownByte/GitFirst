@@ -23,4 +23,10 @@ public class Obj {
         this.Switch = Switch;
         return this;
     }
+
+    public Obj setDigitAndSwitch(int Digit, boolean Switch) {
+        this.setDigit(Digit);
+        this.setSwitch(Switch);
+        return this;
+    }
 }
