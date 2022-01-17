@@ -10,7 +10,7 @@ public class Obj {
     }
 
     public void showInfo() {
-        out.printf("Digit: %s,%nSwitch: %s%n", this.Digit, this.Switch);
+        out.printf("%nDigit: %s,%nSwitch: %s%n", this.Digit, this.Switch);
     }
 
     public Obj setDigit(int Digit) {

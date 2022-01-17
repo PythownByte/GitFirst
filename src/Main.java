@@ -9,13 +9,16 @@ public class Main {
         for (int i = 0; i < sb.length(); ++i) {
             out.print("=");
         }
-
         out.println();
 
         var o = new Obj(10, true);
         o.showInfo();
+        
+        o.setDigit(115).setSwitch(false).showInfo();
 
-        o.setDigit(115).setSwitch(false);
-        o.showInfo();
+        var n = new Obj(33, false);
+        n.showInfo();
+
+        n.setSwitch(true).showInfo();
     }
 }
