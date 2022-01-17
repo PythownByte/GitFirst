@@ -9,8 +9,9 @@ public class Obj {
         this.Switch = Switch;
     }
 
-    public void showInfo() {
+    public Obj showInfo() {
         out.printf("%nDigit: %s,%nSwitch: %s%n", this.Digit, this.Switch);
+        return this;
     }
 
     public Obj setDigit(int Digit) {
