@@ -2,6 +2,20 @@ import static java.lang.System.out;
 
 public class Main {
     public static void main(String[] args) {
-        out.println("good");
+        var sb = new StringBuilder();
+        sb.append("good");
+        out.println(sb);
+
+        for (int i = 0; i < sb.length(); ++i) {
+            out.print("=");
+        }
+
+        out.println();
+
+        var o = new Obj(10, true);
+        o.showInfo();
+
+        o.setDigit(115).setSwitch(false);
+        o.showInfo();
     }
 }
